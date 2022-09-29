@@ -1,5 +1,5 @@
 sources:
-  plankton:
+  flowers:
       description: Sample images required to demonstrate the EfficientNet model trained in the classification of Flower species using Deep Learning. 
       origin: 
       driver: intake_xarray.image.ImageSource
