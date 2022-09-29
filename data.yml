@@ -1,0 +1,11 @@
+sources:
+  plankton:
+      description: Sample images required to demonstrate the EfficientNet model trained in the classification of Flower species using Deep Learning. 
+      origin: 
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: ["zip://*.jpg::https://zenodo.org/record/7107236/files/FlowersData.zip"]
+        chunks: {}
+        storage_options: {'anon': True}
+        coerce_shape: [1000, 1000]
+        exif_tags: True
